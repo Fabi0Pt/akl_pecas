@@ -72,6 +72,7 @@ class SucessoContainer extends Component {
 
   render() {
     const { pagamento } = this.props;
+    console.log(pagamento);
     return (
       <div className="Sucesso-Container container">
         {pagamento &&
